@@ -1,4 +1,4 @@
-grid {
+.grid {
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -49,4 +49,3 @@ button {
     background-attachment: fixed; 
       background-repeat: no-repeat;
 }
-
