@@ -1,0 +1,51 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.board > div {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #FFD369;
+    border: 10px solid #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  body{
+    background-image: url(https://www.emugifs.net/wp-content/uploads/2019/02/Animated-GIF-The-King-of-Fighters-98-Korea-Stage-Background-Sprites-Wallpaper-KOF-98-Dream-Match-Never-Ends-KOF-98-The-Slugfest-SNK-Neo-Geo-1998.gif);
+    background-size: cover;
+    background-attachment: fixed; 
+      background-repeat: no-repeat;
+}
